@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script type="text/javascript">
+	function chessboard(m,n){
+		if (m%2 === 0 & n%2 === 0 || m%2 !== 0 & n%2 !== 0) return "<";
+		else return "#";
+	}
+	for (i = 1 ; i <= 8 ; i++){
+		for (var j = 1 ; j <= 8 ; j++){
+			document.write(chessboard(i,j));
+		}
+		document.write("<br>");
+	}
+</script>
+</head>
+<body>
+    
+</body>
+</html>
